@@ -74,7 +74,7 @@ Opening tag format is `{%XYZ}`, where:
 
 Note: If you want to use the `"l"`/`"r"`/`"c"` letters as fillers, you must specify the alignment.
 
-If string size is larger than padding size, it will overflow. Color tags are not supported in the filler value.
+If string size is larger than padding size, it will be cut off. Color tags are not supported in the filler value.
 
 ### Examples ###
 
