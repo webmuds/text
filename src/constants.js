@@ -11,12 +11,12 @@ export const COLORS = 'white|silver|gray|red|maroon|yellow|olive|lime|green|blue
 /**
   * The main Regular Expression to perform HTML tag replacement.
   */
-export const RX = new RegExp('({((?:' + COLORS + '))}((?:(?!{(' + COLORS + '|/)}).)*)({/})*)', 'gim')
+export const COLOR_RX = new RegExp('({((?:' + COLORS + '))}((?:(?!{(' + COLORS + '|/)}).)*)({/})*)', 'gim')
 
 /**
   * The main Regular Expression to perform padding.
   */
-export const PAD_RX = /({%([\d]{1,2})([lrc]?)(?:([^{}]{0,4}))}([\s\S]*)(?:{%}))/
+export const PAD_RX = /({%([\d]{1,2})([lrc]?)(?:([^{}]{0,4}))}([\s\S]*?)(?:{%}))/gim
 
 /**
   * RegExp to strip all color tags.

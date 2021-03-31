@@ -52,4 +52,9 @@ describe('#pad', function () {
     result = pad(undefined)
     expect(result).to.equal('')
   })
+
+  it('pads multiple times', function () {
+    const result = pad('+{%20c-} Fancy Title {%}+ +{%20c-} Me Too {%}+')
+    expect(result).to.equal('+---- Fancy Title ---+ +------ Me Too ------+')
+  })
 })

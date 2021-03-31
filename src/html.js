@@ -2,7 +2,7 @@
 
 'use strict'
 
-import { RX } from './constants.js'
+import { COLOR_RX } from './constants.js'
 
 /**
  * Convert color tags into HTML tags.
@@ -10,5 +10,5 @@ import { RX } from './constants.js'
  * @return {string}
  */
 export function html (text) {
-  return text.replace(RX, '<span class="wm$2">$3</span>')
+  return text.replace(COLOR_RX, '<span class="wm$2">$3</span>')
 }

@@ -1,7 +1,7 @@
 {
   "name": "@webmuds/text",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "Color and paddin tag converters for MUD text",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/webmuds/text.git"
   },
-  "author": "",
+  "author": "webmuds.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/webmuds/text/issues"
