@@ -1,7 +1,7 @@
 {
   "name": "@webmuds/text",
   "version": "0.1.1",
-  "description": "Color and paddin tag converters for MUD text",
+  "description": "Color and padding tag converters for MUD text",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -39,8 +39,5 @@
     "include": [
       "src"
     ]
-  },
-  "engines": {
-    "node": "12.18.4"
   }
 }
