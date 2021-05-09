@@ -1,11 +1,12 @@
 {
   "name": "@webmuds/text",
-  "version": "0.1.1",
-  "description": "Color and padding tag converters for MUD text",
+  "version": "0.1.2",
+  "description": "MUD text parser for color and padding",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "npm run lint && c8 mocha",
+    "test:ci": "mocha",
     "lint": "standard --fix"
   },
   "repository": {
